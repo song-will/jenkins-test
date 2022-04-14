@@ -1,4 +1,4 @@
 FROM nginx
 
-COPY dist /usr/share/nginx/html
+ADD dist /usr/share/nginx/html
 
